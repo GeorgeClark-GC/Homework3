@@ -10,8 +10,8 @@ public class Main {
          wagesMaria = wagesMaria + increaseMaria;
          wagesDenis = wagesDenis + increaseDenis;
          wagesChristina = wagesChristina + increaseChristina;
-         System.out.println("Зарплата Марии выросла на " + increaseMaria + "рублей и составляет теперь " + wagesMaria + " рублей.");
-         System.out.println("Зарплата Дениса выросла на " + increaseDenis + "рублей и составляет теперь " + wagesDenis + " рублей.");
-         System.out.println("Зарплата Кристины выросла на " + increaseChristina +  "рублей и составляет теперь " + wagesChristina + " рублей.");
+         System.out.println("Зарплата Марии выросла на " + increaseMaria + " рублей и составляет теперь " + wagesMaria + " рублей.");
+         System.out.println("Зарплата Дениса выросла на " + increaseDenis + " рублей и составляет теперь " + wagesDenis + " рублей.");
+         System.out.println("Зарплата Кристины выросла на " + increaseChristina +  " рублей и составляет теперь " + wagesChristina + " рублей.");
     }
 }
