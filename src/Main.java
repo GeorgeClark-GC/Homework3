@@ -1,11 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-         int totalOut = 7;
-         int outWeight1 = 250;
-         int outWeight2 = 500;
-         int maxDays = (totalOut * 1000) / outWeight1;
-         int minDays = (totalOut * 1000) / outWeight2;
-         int mediumDays = (maxDays + minDays) / 2;
-         System.out.println("Спортсмену необходимо сбросить " + totalOut + " килограммов. Сбрасывая " + outWeight1 +  " - " + outWeight2 + " граммов в день, у него это займёт " + minDays + " - " + maxDays + " дней, или в среднем " + mediumDays + " день" );
+         double percent = 0.1;
+         double wagesMaria = 67760;
+         double wagesDenis = 83690;
+         double wagesChristina = 76230;
+         double increaseMaria = wagesMaria * percent;
+         double increaseDenis = wagesDenis * percent;
+         double increaseChristina = wagesChristina * percent;
+         wagesMaria = wagesMaria + increaseMaria;
+         wagesDenis = wagesDenis + increaseDenis;
+         wagesChristina = wagesChristina + increaseChristina;
+         System.out.println("Зарплата Марии выросла на " + increaseMaria + "рублей и составляет теперь " + wagesMaria + " рублей.");
+         System.out.println("Зарплата Дениса выросла на " + increaseDenis + "рублей и составляет теперь " + wagesDenis + " рублей.");
+         System.out.println("Зарплата Кристины выросла на " + increaseChristina +  "рублей и составляет теперь " + wagesChristina + " рублей.");
     }
 }
