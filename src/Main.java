@@ -1,15 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int numberBananas = 5;
-        int bananaWeight = 80;
-        int numberMilk = 2;
-        int milkWeight = 105;
-        int numberIcecream = 2;
-        int icecreamWeight = 100;
-        int numberEgg = 4;
-        int eggWeight = 70;
-        double totalWeight1 = (numberBananas * bananaWeight) + (numberMilk * milkWeight) + (numberIcecream * icecreamWeight) + (numberEgg * eggWeight);
-        double totalWeight2 = totalWeight1/1000;
-        System.out.println("Вес спортзавтрака в граммах: " + totalWeight1 + "    Вес спортзавтрака в килограммах: " + totalWeight2);
+         int totalOut = 7;
+         int outWeight1 = 250;
+         int outWeight2 = 500;
+         int maxDays = (totalOut * 1000) / outWeight1;
+         int minDays = (totalOut * 1000) / outWeight2;
+         int mediumDays = (maxDays + minDays) / 2;
+         System.out.println("Спортсмену необходимо сбросить " + totalOut + " килограммов. Сбрасывая " + outWeight1 +  " - " + outWeight2 + " граммов в день, у него это займёт " + minDays + " - " + maxDays + " дней, или в среднем " + mediumDays + " день" );
     }
 }
